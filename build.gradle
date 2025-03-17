@@ -9,6 +9,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'io.quarkus:quarkus-jdbc-mysql'
+    implementation 'org.knowm.xchart:xchart:3.8.1'
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-rest'
     implementation 'io.quarkus:quarkus-flyway'
